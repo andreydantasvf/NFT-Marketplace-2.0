@@ -6,7 +6,7 @@ export function TopCreatorsWeek() {
       <span>NFT Creators</span>
       <h2 className="text-3xl">Top Creators Of The Week</h2>
 
-      <div className="grid grid-cols-3 gap-9 w-full mt-10">
+      <div className="flex flex-col md:grid md:grid-cols-3 gap-9 w-full mt-10">
         <CardTopCreator />
         <CardTopCreator />
         <CardTopCreator />

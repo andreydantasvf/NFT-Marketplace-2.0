@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Footer() {
   return (
-    <footer className="flex items-center justify-between mt-16 pb-10">
+    <footer className="mt-16 pb-10 hidden md:flex md:items-center md:justify-between">
       <div>
         <div className="flex items-center">
           <Image src="/logo.svg" alt="Logo NFT" width={24} height={24} />

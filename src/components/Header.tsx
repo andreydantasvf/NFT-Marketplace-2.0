@@ -8,7 +8,7 @@ export function Header() {
         <h3 className="font-semibold text-xl">QikNFT</h3>
       </div>
 
-      <nav className="space-x-8 text-xl">
+      <nav className="space-x-8 text-xl hidden lg:block">
         <a href="#">Explore</a>
         <a href="#">Stats</a>
         <a href="#">Resourves</a>
@@ -16,7 +16,7 @@ export function Header() {
         <a href="#">Create</a>
       </nav>
 
-      <button className="bg-gradient-button p-5 border-none rounded-2xl text-xl">Connect wallet</button>
+      <button className="bg-gradient-button p-5 border-none rounded-2xl text-xl hidden md:block">Connect wallet</button>
     </header>
   )
 }

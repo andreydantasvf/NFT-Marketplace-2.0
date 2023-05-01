@@ -8,7 +8,7 @@ interface CardOptionProps {
 
 export function CardOption({ title, imageURL, details }: CardOptionProps) {
   return (
-    <div className="bg-zinc-800 rounded-3xl py-14 px-24 flex flex-col items-center justify-center gap-5">
+    <div className="bg-zinc-800 rounded-3xl py-14 px-18 md:px-24 flex flex-col items-center justify-center gap-5">
       <Image src={imageURL} alt={imageURL} width={95} height={95} />
 
       <p className="font-semibold text-lg">{title}</p>

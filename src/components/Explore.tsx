@@ -6,7 +6,7 @@ export function Explore() {
       <span>NFT marketplace</span>
       <h2 className="text-3xl">Sportlight: Projects You Would Love</h2>
 
-      <nav className="mt-16 w-full flex justify-between">
+      <nav className="mt-16 w-full flex items-center justify-between flex-col md:flex-row gap-2">
         <a className="bg-zinc-900 p-4 w-32 text-center rounded-xl cursor-pointer">Music</a>
         <a className="bg-zinc-900 p-4 w-32 text-center rounded-xl cursor-pointer">Art</a>
         <a className="bg-zinc-900 p-4 w-32 text-center rounded-xl cursor-pointer">Sport</a>
@@ -15,7 +15,7 @@ export function Explore() {
         <a className="bg-zinc-900 p-4 w-32 text-center rounded-xl cursor-pointer">Videos</a>
       </nav>
 
-      <div className="mt-16 grid grid-cols-3 w-full gap-6">
+      <div className="mt-16 w-full flex flex-col items-center gap-6 md:grid md:grid-cols-3">
         <CardNFT
           title="Rappu Apes"
           imageURL="/nft-01.png"

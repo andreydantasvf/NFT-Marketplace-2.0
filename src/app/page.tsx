@@ -8,7 +8,7 @@ import { TopCreatorsWeek } from "@/components/TopCreatorsWeek";
 
 export default function App() {
   return (
-    <main className="py-8 px-32 h-screen text-white">
+    <main className="py-8 px-5 md:px-14 lg:px-32 h-screen text-white">
       <Header />
       <Home />
       <Explore />

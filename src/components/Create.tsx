@@ -6,7 +6,7 @@ export function Create() {
       <span>Be An NFT Creator</span>
       <h2 className="text-3xl">Create & Sell Your Own NFTs</h2>
 
-      <div className="w-full mt-8 flex gap-14 items-center justify-center">
+      <div className="w-full mt-8 flex flex-col gap-14 items-center justify-center lg:flex-row">
         <CardOption 
           title="Create Artworks"
           details="Create your collection and social links and more"
@@ -24,7 +24,7 @@ export function Create() {
         />
       </div>
 
-      <div className="mt-8 space-x-9">
+      <div className="mt-8 md:space-x-9 flex flex-col items-center justify-center md:inline">
         <button className="bg-gradient-button p-5 border-none rounded-2xl text-xl">Create Now</button>
         <button className="p-5 border-2 border-[#FD01A7] rounded-2xl text-xl">Watch Videos</button>
       </div>
